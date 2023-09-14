@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOPIFY APP</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="flex justify-evenly align-middle p-3 fixed top-0 w-screen bg-slate-400 text-white"
+      >
+        <div
+          class="logo text-sm text-center flex justify-center align-middle font-bold text-yellow-200"
+        >
+          SHOPIFY
+        </div>
+        <div class="search flex align-middle gap-3">
+          <label for="search" class="text-sm md text-center:">SEARCH</label>
+          <input
+            type="text"
+            placeholder="Search Item"
+            class="px-2 border-2 border-color: rgb(0 0 0) w-28 lg:w-36 rounded-2xl text-black"
+          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="1.5em"
+            viewBox="0 0 512 512"
+          >
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <style>
+              svg {
+                fill: #36393f;
+              }
+            </style>
+            <path
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+            />
+          </svg>
+        </div>
+        <div class="items">
+          <div class="bar flex justify-center align-middle lg:hidden md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1.5em"
+              viewBox="0 0 448 512"
+            >
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+              />
+            </svg>
+          </div>
+
+          <ul class="hidden md:flex align-middle justify-center gap-8">
+            <li class="hover:text-cyan-600"><a href="#">HOME</a></li>
+            <li class="hover:text-cyan-600"><a href="#">MY CART</a></li>
+            <li class="hover:text-cyan-600"><a href="#">CATAGORIES</a></li>
+            <li class="hover:text-cyan-600"><a href="#">CONTACT US</a></li>
+            <li class="hover:text-cyan-600"><a href="#">LOG OUT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section
+      class="h-screen flex flex-col align-middle justify-center gap-9 border-b-2 overflow-x-hidden bg-no-repeat bg-cover bg-center"
+      style="background-image: url(./homepageimages/bg2.jpg)"
+    >
+      <div class="intro text-center">
+        <h1 class="text-4xl leading-9 font-extrabold text-cyan-700 lg:text-6xl">
+          SHOPIFY
+        </h1>
+        <p
+          class="sm: text-2xl text-red-900 p-5 font-semibold font-mono lg:text-5xl"
+        >
+          WELCOME TO THE INDIA'S <br />BIGGEST CLOTHING PLATFORM
+        </p>
+      </div>
+      <div class="images flex align-middle justify-center">
+        <img
+          src="./homepageimages/background3.jpg"
+          alt=""
+          srcset=""
+          class="w-80 rounded-full lg:w-96 hover:opacity-75"
+        />
+      </div>
+      <div class="button text-center">
+        <button
+          class="bg-black text-white p-3 rounded-2xl hover:bg-slate-500 ease-in"
+        >
+          <a href="#items">SURF NOW</a>
+        </button>
+      </div>
+    </section>
+    <section class="clothes" id="items">
+      <div class="shirts p-4 border-b-2">
+        <p class="text-lg font-bold text-fuchsia-600">SHIRTS</p>
+        <p class="text-center">UP to 45% discounts</p>
+        <br />
+        <div class="right flex gap-5 overflow-scroll no-scrollbar">
+          <img
+            src="./homepageimages/firstpic.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+
+          <img
+            src="./homepageimages/secondpic.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/thirdpic.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/fourthpic.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+          <img
+            src="./homepageimages/firstpic.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+
+          <img
+            src="./homepageimages/secondpic.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/thirdpic.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/fourthpic.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+        </div>
+      </div>
+
+      <!-- this is for the tshirt section  -->
+
+      <div class="shirts p-4 border-b-2">
+        <p class="text-lg font-bold text-cyan-600">T - SHIRTS</p>
+        <p class="text-center">UP to 55% discounts</p>
+        <br />
+        <div class="right flex gap-5 overflow-scroll no-scrollbar">
+          <img
+            src="./homepageimages/tshirt1.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+
+          <img
+            src="./homepageimages/tshirt2.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/tshirt4.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/tshrit3.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+          <img
+            src="./homepageimages/tshirt1.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+
+          <img
+            src="./homepageimages/tshirt2.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/tshrit3.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/tshirt4.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+        </div>
+      </div>
+
+      <!-- this section is for paints -->
+      <div class="shirts p-4 border-b-2">
+        <p class="text-lg font-bold text-blue-600">PAINTS</p>
+        <p class="text-center">UP to 40% discounts</p>
+        <br />
+        <div class="right flex gap-5 overflow-scroll no-scrollbar">
+          <img
+            src="./homepageimages/pants1.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+
+          <img
+            src="./homepageimages/pants3.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/pants2.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/pants4.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+          <img
+            src="./homepageimages/pants1.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+
+          <img
+            src="./homepageimages/pants2.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/pants3.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/pants4.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+        </div>
+      </div>
+      <!-- this is for the female clothes? -->
+      <div class="shirts p-4 border-b-2">
+        <p class="text-lg font-bold text-cyan-600">T - SHIRTS</p>
+        <p class="text-center">UP to 55% discounts</p>
+        <br />
+        <div class="right flex gap-5 overflow-scroll no-scrollbar">
+          <img
+            src="./homepageimages/tshirt1.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+
+          <img
+            src="./homepageimages/tshirt2.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/tshirt4.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/tshrit3.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+          <img
+            src="./homepageimages/tshirt1.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+
+          <img
+            src="./homepageimages/tshirt2.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/tshrit3.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          /><img
+            src="./homepageimages/tshirt4.jpg"
+            alt=""
+            srcset=""
+            class="w-56 h-56"
+          />
+        </div>
+      </div>
+    </section>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

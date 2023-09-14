@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header class="h-full">
+      <nav
+        class="flex justify-evenly align-middle p-3 sticky top-0 w-screen bg-slate-400 text-white"
+      >
+        <div
+          class="logo text-sm text-center flex justify-center align-middle font-bold text-yellow-200"
+        >
+          SHOPIFY
+        </div>
+        <div class="search flex align-middle gap-3">
+          <label for="search" class="text-sm md text-center:">SEARCH</label>
+          <input
+            type="text"
+            placeholder="Search Item"
+            class="px-2 border-2 border-color: rgb(0 0 0) w-28 lg:w-36 rounded-2xl text-black"
+          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="1.5em"
+            viewBox="0 0 512 512"
+          >
+            <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <style>
+              svg {
+                fill: #36393f;
+              }
+            </style>
+            <path
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+            />
+          </svg>
+        </div>
+        <div class="items">
+          <div class="bar flex justify-center align-middle lg:hidden md:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="1.5em"
+              viewBox="0 0 448 512"
+            >
+              <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+              />
+            </svg>
+          </div>
+
+          <ul class="hidden md:flex align-middle justify-center gap-8 relative">
+            <li class="hover:text-cyan-600"><a href="#">HOME</a></li>
+            <li class="hover:text-cyan-600"><a href="#">MY CART</a></li>
+            <li class="hover:text-cyan-600"><a href="#">CATAGORIES</a></li>
+            <li class="hover:text-cyan-600"><a href="#">CONTACT US</a></li>
+            <li class="hover:text-cyan-600"><a href="#">LOG OUT</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="main">
+      <div class="header">
+        <p class="text-center font-bold p-5">MY CART</p>
+      </div>
+      <div class="cart lg:flex flex justify-center">
+        <div
+          class="items flex flex-col m-7 p-7 gap-3 border border-pink-300 lg:w-2/3"
+        >
+          <div class="image flex justify-between">
+            <img src="/image/img1.jpg" class="w-36" />
+            <p class="text-blue-300">CANCEL ORDER</p>
+          </div>
+          <div class="contents">
+            <p class="font-bold">$22.95</p>
+            <p class="font-semibold text-red-600">
+              DENIM SHIRTS WITH COTTON FIBRES AND TAILORED
+            </p>
+            <div class="abouts">
+              <label for="size" class="font-bold">SIZE</label>
+              <select name="cars" id="cars">
+                <option value="SM">SM</option>
+                <option value="L">L</option>
+                <option value="M">M</option>
+                <option value="XL">XL</option>
+              </select>
+              <label for="QUANTITY">QTY</label>
+              <select name="QUANTITY" id="QUANTITY">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <p>TOTAL : <span>1500 $</span></p>
+            </div>
+          </div>
+          <div class="total flex justify-center gap-3 align-middle">
+            <button class="p-3 bg-pink-950 w-28 text-white rounded-2xl">
+              BUY NOW
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="cart lg:flex flex justify-center">
+        <div
+          class="items flex flex-col m-7 p-7 gap-3 border border-pink-300 lg:w-2/3"
+        >
+          <div class="image flex justify-between">
+            <img src="/image/img1.jpg" class="w-36" />
+            <p class="text-blue-300">CANCEL ORDER</p>
+          </div>
+          <div class="contents">
+            <p class="font-bold">$22.95</p>
+            <p class="font-semibold text-red-600">
+              DENIM SHIRTS WITH COTTON FIBRES AND TAILORED
+            </p>
+            <div class="abouts">
+              <label for="size" class="font-bold">SIZE</label>
+              <select name="cars" id="cars">
+                <option value="SM">SM</option>
+                <option value="L">L</option>
+                <option value="M">M</option>
+                <option value="XL">XL</option>
+              </select>
+              <label for="QUANTITY">QTY</label>
+              <select name="QUANTITY" id="QUANTITY">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <p>TOTAL : <span>1500 $</span></p>
+            </div>
+          </div>
+          <div class="total flex justify-center gap-3 align-middle">
+            <button class="p-3 bg-pink-950 w-28 text-white rounded-2xl">
+              BUY NOW
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
